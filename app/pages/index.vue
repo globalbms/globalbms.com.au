@@ -27,7 +27,7 @@
 
 			<v-container>
 				<div class="d-flex flex-wrap justify-center">
-					<div v-for="i in 3" :key="n" class="mx-4 my-2">
+					<div v-for="i in 3" :key="i" class="mx-4 my-2">
 						<v-img
 							width="300"
 							height="200"
@@ -43,7 +43,7 @@
 
 			<v-container>
 				<div class="d-flex flex-wrap justify-center">
-					<div v-for="i in 12" :key="n" class="mx-4 my-2">
+					<div v-for="i in 12" :key="i" class="mx-4 my-2">
 						<v-img
 							width="300"
 							height="200"
@@ -100,7 +100,7 @@
 
 			<v-container>
 				<div class="d-flex flex-wrap justify-center">
-					<v-card v-for="i in 3" :key="n" class="mx-4 my-2">
+					<v-card v-for="i in 3" :key="i" class="mx-4 my-2">
 						<v-img
 							width="300"
 							height="200"
@@ -167,7 +167,7 @@
 						<div class="full-height">
 							<v-card height="100%" width="100%">
 								<div class="d-flex flex-wrap justify-center">
-									<div v-for="i in 6" :key="n" class="mx-2 my-2">
+									<div v-for="i in 6" :key="i" class="mx-2 my-2">
 										<v-img
 											width="100"
 											height="100"
