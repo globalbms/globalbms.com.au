@@ -17,5 +17,8 @@
     "vue": "^3.5.26",
     "vue-router": "^4.6.4",
     "vuetify-nuxt-module": "^0.19.2"
+  },
+  "devDependencies": {
+    "magicast": "^0.3.5"
   }
 }
